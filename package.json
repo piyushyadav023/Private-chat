@@ -1,6 +1,7 @@
 {
   "name": "private-chat-app",
   "version": "1.0.0",
+  "description": "A private real-time chat app using Express and Socket.io",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -8,5 +9,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
-  }
+  },
+  "keywords": ["chat", "socket.io", "express", "private-chat"],
+  "author": "Piyush Yadav",
+  "license": "MIT"
 }
